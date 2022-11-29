@@ -306,7 +306,7 @@ MonoBehaviour:
   topEgg: {fileID: 5047460903139947468, guid: d891b7f2d59be524ebee1dd2c21f3dff, type: 3}
   bottomEgg: {fileID: 5047460903139947468, guid: f46c0a2a8c7199e449ea77d317d326b8, type: 3}
   yoke: {fileID: 654830418187469666, guid: caeb6ecb39529cd4b9ed9ea9f5e58f73, type: 3}
-  spawnpoint: {x: -0.02, y: 1.035, z: 0}
+  spawnpoint: {x: 0, y: 1.035, z: 0}
   topOffset: {x: 0, y: 0.1, z: 0}
   tyokeOffset: {x: 0, y: 0, z: 0}
   tbottomOffset: {x: 0, y: -0.1, z: 0}

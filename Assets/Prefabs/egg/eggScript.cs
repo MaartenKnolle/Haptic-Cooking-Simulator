@@ -14,11 +14,15 @@ public class eggScript : MonoBehaviour
     public Vector3 tyokeOffset;
     public Vector3 tbottomOffset;
 
+    AudioSource audioData;
+
 
     // Start is called before the first frame update
     void Start()
     {
         egg.transform.position = spawnpoint;
+
+        audioData = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -39,6 +43,15 @@ public class eggScript : MonoBehaviour
     
         //Kills the object
         kill();
+    }
+
+    void OnCollisionEnter (Collision col){
+        // if (col.gameObject.name == "prop_PowerCube"){
+        //     Debug.Log("KlopKlop");
+        // }
+        Debug.Log("Collided Against Something");
+        audioData.Play();
+
     }
 
     public void kill()
