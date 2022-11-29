@@ -32,7 +32,6 @@ public class ButtonVR : MonoBehaviour
 
     private void OnTriggerExit(Collider other){
         if (isPressed){
-            Debug.Log("Exit the Click2");
             button.transform.localPosition = new Vector3(0, 0.015f, 0);
             onRelease.Invoke();
             isPressed = false;
@@ -40,10 +39,6 @@ public class ButtonVR : MonoBehaviour
     }
 
     public void SpawnSphere(){
-        Debug.Log("Spawn???");
-        GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-        sphere.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
-        sphere.transform.localPosition = new Vector3(0,1,2);
-        sphere.AddComponent<Rigidbody>();
+        Debug.Log("Do Something");
     }
 }
