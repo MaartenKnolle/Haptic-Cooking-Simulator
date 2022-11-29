@@ -46,9 +46,6 @@ public class eggScript : MonoBehaviour
     }
 
     void OnCollisionEnter (Collision col){
-        // if (col.gameObject.name == "prop_PowerCube"){
-        //     Debug.Log("KlopKlop");
-        // }
         Debug.Log("Collided Against Something");
         audioData.Play();
 
