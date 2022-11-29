@@ -50,7 +50,7 @@ public class eggScript : MonoBehaviour
         //     Debug.Log("KlopKlop");
         // }
         Debug.Log("Collided Against Something");
-        audioData.Play();
+        //audioData.Play();
 
     }
 
