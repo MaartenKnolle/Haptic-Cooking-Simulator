@@ -60,7 +60,7 @@ MonoBehaviour:
   company: HTC
   priority: 0
   required: 0
-  m_XrInstance: 2576752951392
+  m_XrInstance: 112459423678465
   m_XrSession: 2576508364272
   m_systemid: 1152964849416798579
 --- !u!114 &-7195488089176333055
@@ -207,6 +207,7 @@ MonoBehaviour:
   features:
   - {fileID: 6096235084877831320}
   - {fileID: 7689994682236322040}
+  - {fileID: -6793469560852857702}
   - {fileID: -6325773293615285397}
   - {fileID: -7984935649286399978}
   - {fileID: 7109240647245428850}
@@ -220,7 +221,6 @@ MonoBehaviour:
   - {fileID: -3186747217870263820}
   - {fileID: -7920497438458519055}
   - {fileID: 1443147749370166104}
-  - {fileID: -6793469560852857702}
   m_renderMode: 1
   m_depthSubmissionMode: 0
 --- !u!114 &-3186747217870263820
