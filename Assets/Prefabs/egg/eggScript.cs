@@ -36,6 +36,8 @@ public class eggScript : MonoBehaviour
         Instantiate(bottomEgg, this.transform.position + tbottomOffset, egg.transform.rotation);
         Instantiate(yoke, this.transform.position + tyokeOffset, egg.transform.rotation);
 
+    
+        //Kills the object
         kill();
     }
 
