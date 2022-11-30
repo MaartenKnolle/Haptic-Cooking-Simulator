@@ -47,7 +47,7 @@ public class eggScript : MonoBehaviour
 
     void OnCollisionEnter (Collision col){
         Debug.Log("Egg collided Against Something");
-        //audioData.Play();
+        audioData.Play();
 
     }
 
