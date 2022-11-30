@@ -14,7 +14,7 @@ public class eggScript : MonoBehaviour
     public Vector3 tyokeOffset;
     public Vector3 tbottomOffset;
 
-    AudioSource audioData;
+     public AudioSource audioData;
 
 
     // Start is called before the first frame update
@@ -46,7 +46,10 @@ public class eggScript : MonoBehaviour
     }
 
     void OnCollisionEnter (Collision col){
-        Debug.Log("Egg collided Against Something");
+        // if (col.gameObject.name == "prop_PowerCube"){
+        //     Debug.Log("KlopKlop");
+        // }
+        Debug.Log("Collided Against Something");
         audioData.Play();
 
     }

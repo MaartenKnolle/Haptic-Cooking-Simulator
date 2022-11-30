@@ -21,7 +21,7 @@ public class yoke : MonoBehaviour
         }
     }
     void OnCollisionEnter(Collision collision) { 
-        if (collision.gameObject.name == "Pan")
+        if (collision.gameObject.name == "pan")
         {
             currentpos = transform.position;
             Instantiate(eggInPan, currentpos, Quaternion.identity);
