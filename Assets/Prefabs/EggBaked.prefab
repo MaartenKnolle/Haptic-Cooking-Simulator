@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 411640516985502118}
+  - component: {fileID: 9049339167767810887}
   m_Layer: 0
   m_Name: EggBaked
   m_TagString: Untagged
@@ -23,9 +24,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080195897606038300}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.32840234, y: 0.13071513, z: -1.331}
-  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_LocalScale: {x: 0.013, y: 0.013, z: 0.013}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4845179590589257761}
@@ -33,6 +34,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &9049339167767810887
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080195897606038300}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.171909, y: 0.90042025, z: 9.363544}
+  m_Center: {x: 0.3057748, y: 0.018969039, z: 0.08211732}
 --- !u!1 &3796679750256036313
 GameObject:
   m_ObjectHideFlags: 0

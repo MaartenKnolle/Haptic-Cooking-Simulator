@@ -365,10 +365,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   egg: {fileID: 8808871837847160354}
-  topEgg: {fileID: 5047460903139947468, guid: d891b7f2d59be524ebee1dd2c21f3dff, type: 3}
-  bottomEgg: {fileID: 5047460903139947468, guid: f46c0a2a8c7199e449ea77d317d326b8, type: 3}
+  topEgg: {fileID: 2945486187560032521, guid: 3c26fd4129c8c114fb3a4e3806d63490, type: 3}
+  bottomEgg: {fileID: 15609207211693760, guid: eda33153fe3be3c4a82a725fa07be2ef, type: 3}
   yoke: {fileID: 654830418187469666, guid: caeb6ecb39529cd4b9ed9ea9f5e58f73, type: 3}
-  spawnpoint: {x: 0.4156, y: 1.1239, z: 0.2779}
+  spawnpoint: {x: 0.3452, y: 1.1239, z: 0.2049}
   topOffset: {x: 0, y: 0.1, z: 0}
   tyokeOffset: {x: 0, y: 0, z: 0}
   tbottomOffset: {x: 0, y: -0.1, z: 0}

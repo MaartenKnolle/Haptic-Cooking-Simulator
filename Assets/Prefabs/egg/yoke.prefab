@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ae8a417545489b4a8bf98afe3cfa0e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eggInPan: {fileID: 5720618923513824851, guid: 83f818b6a92e03f4db3d7ffabf9d9410, type: 3}
+  eggInPan: {fileID: 1080195897606038300, guid: 5d164eb5a2855c6439fb0974de2fccea, type: 3}
   currentpos: {x: 0, y: 0, z: 0}
 --- !u!33 &3292955860453382837
 MeshFilter:

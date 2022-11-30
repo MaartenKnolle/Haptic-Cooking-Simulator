@@ -9190,14 +9190,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 989217216}
     m_Modifications:
-    - target: {fileID: 2812928993658431406, guid: 9c63014f4d0f10c40a2697344541b487, type: 3}
-      propertyPath: spawnpoint.x
-      value: 0.3452
-      objectReference: {fileID: 0}
-    - target: {fileID: 2812928993658431406, guid: 9c63014f4d0f10c40a2697344541b487, type: 3}
-      propertyPath: spawnpoint.z
-      value: 0.2049
-      objectReference: {fileID: 0}
     - target: {fileID: 8808871837847160354, guid: 9c63014f4d0f10c40a2697344541b487, type: 3}
       propertyPath: m_Name
       value: Egg
@@ -9261,12 +9253,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 989217216}
     m_Modifications:
     - target: {fileID: 2812928993658431406, guid: 9c63014f4d0f10c40a2697344541b487, type: 3}
+      propertyPath: topEgg
+      value: 
+      objectReference: {fileID: 2945486187560032521, guid: 3c26fd4129c8c114fb3a4e3806d63490, type: 3}
+    - target: {fileID: 2812928993658431406, guid: 9c63014f4d0f10c40a2697344541b487, type: 3}
       propertyPath: spawnpoint.x
       value: 0.3452
       objectReference: {fileID: 0}
     - target: {fileID: 8808871837847160354, guid: 9c63014f4d0f10c40a2697344541b487, type: 3}
       propertyPath: m_Name
       value: Egg (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8808871837847160354, guid: 9c63014f4d0f10c40a2697344541b487, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9068011324346472199, guid: 9c63014f4d0f10c40a2697344541b487, type: 3}
       propertyPath: m_RootOrder
@@ -9334,9 +9334,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 989217216}
     m_Modifications:
+    - target: {fileID: 2812928993658431406, guid: 9c63014f4d0f10c40a2697344541b487, type: 3}
+      propertyPath: topEgg
+      value: 
+      objectReference: {fileID: 2945486187560032521, guid: 3c26fd4129c8c114fb3a4e3806d63490, type: 3}
     - target: {fileID: 8808871837847160354, guid: 9c63014f4d0f10c40a2697344541b487, type: 3}
       propertyPath: m_Name
       value: Egg (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8808871837847160354, guid: 9c63014f4d0f10c40a2697344541b487, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9068011324346472199, guid: 9c63014f4d0f10c40a2697344541b487, type: 3}
       propertyPath: m_RootOrder
@@ -10354,6 +10362,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Egg (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4631605194369001887, guid: 8ffec177cafed104dab4a43c9eb9a3a4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5408001602882089765, guid: 8ffec177cafed104dab4a43c9eb9a3a4, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -10398,6 +10410,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5514567254831453426, guid: 8ffec177cafed104dab4a43c9eb9a3a4, type: 3}
+      propertyPath: topEgg
+      value: 
+      objectReference: {fileID: 2945486187560032521, guid: 3c26fd4129c8c114fb3a4e3806d63490, type: 3}
     - target: {fileID: 5514567254831453427, guid: 8ffec177cafed104dab4a43c9eb9a3a4, type: 3}
       propertyPath: m_InteractionManager
       value: 
