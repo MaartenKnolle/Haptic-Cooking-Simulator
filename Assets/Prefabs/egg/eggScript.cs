@@ -14,7 +14,7 @@ public class eggScript : MonoBehaviour
     public Vector3 tyokeOffset;
     public Vector3 tbottomOffset;
 
-    AudioSource audioData;
+     public AudioSource audioData;
 
 
     // Start is called before the first frame update
